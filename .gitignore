@@ -23,6 +23,8 @@ node_modules
 # misc
 .DS_Store
 *.pem
+*.db
+*.pid
 
 # debug
 npm-debug.log*
@@ -52,3 +54,7 @@ prompt
 server.log
 # Skills directory
 /skills/
+
+# temp & generated output
+.tmp/
+download/
